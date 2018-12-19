@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
-int multiple(int base_score, int multiplier);
+#include "score.h"
 
 int main(int argc, char *argv[]){
     if (argc < 2 || argc > 3) {
-        fprintf(stderr, "Usage: ./score han [fu]\n");
+        fprintf(stderr, "Usage: ./score.out han [fu]\n");
         return 1;
     }
 

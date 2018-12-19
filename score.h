@@ -1,0 +1,1 @@
+int multiple(int base_score, int multiplier);
